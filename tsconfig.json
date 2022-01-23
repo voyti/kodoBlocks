@@ -16,9 +16,18 @@
     "importHelpers": true,
     "target": "es2017",
     "module": "es2020",
+    "allowSyntheticDefaultImports": true,
     "lib": [
       "es2018",
-      "dom"
+      "dom",
+      "scripthost",
+    ],
+    "typeRoots": [
+      "./node_modules/phaser/types"
+  ],
+    "types": [
+        "jasmine",
+        "Phaser"
     ]
   },
   "angularCompilerOptions": {
@@ -27,4 +36,5 @@
     "strictInputAccessModifiers": true,
     "strictTemplates": true
   }
+
 }
